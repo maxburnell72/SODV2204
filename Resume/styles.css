@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+ }
+h1{
+    Color:  #726969; 
+    Background-Color: yellow;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+h2{
+    Color: #2f4721;
+    font-size: 40px;
+    background-color: aqua;
+    text-align: center;
+
+}
+ul { 
+    Color: white;
+
+}
+
+p { 
+   Color: white;
+}
