@@ -1,0 +1,25 @@
+h1 {
+   background-color: yellow;
+   text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 900px;
+    background-color: #3b3939;
+    position: fixed; 
+}
+li {
+    display: block;
+    width: 120px;
+    float: left;
+    text-align: center;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+
+
+}
