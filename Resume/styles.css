@@ -1,6 +1,4 @@
-body {
-    background-color: black;
- }
+
 h1{
     Color:  #726969; 
     Background-Color: yellow;
@@ -16,10 +14,29 @@ h2{
 
 }
 ul { 
-    Color: white;
+    Color: Black;
 
 }
 
 p { 
-   Color: white;
+   Color:Black;
 }
+
+body,
+input,
+button {
+Font: 16px "Trebuchet MS" sans-serif;
+}
+
+input[type="submit"].button
+button.button
+{cursor: pointer;}
+.button {
+    padding:8px 16px;
+    background-color: #2f47;
+    text-decoration: none;
+    color: blue;
+    border-radius: 4px;
+    text-align: right;
+    display: inline-block;
+    width: 200px;}
