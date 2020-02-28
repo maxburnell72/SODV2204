@@ -9,33 +9,33 @@ html body {
    width: 100%;
    margin: 0px;
    padding: 10px;
-  
+   font-size:24px;
+   font-family: sans-serif;
    
 }
 ul { 
-    list-style-type: none;
-    margin: 0px;
+    list-style: none;
+    margin: 0;
     padding: 0;
-    width: 100%;
-    background-color: #3b3939;
-    position: fixed; 
-    top: 58px;
+    background-color: #565656;
     white-space:nowrap;
-     
+    align-items: center; 
+    display: flex;
+    justify-content: center;
 
 }
 li {
-    display: block;
-    width: 100%;
-    float: left;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
     text-align: center
+    
 
 }
  a {
-display: inline;
+display:inline-block;
 color: white;
 text-align: center;
-padding: 0px 16px;
 text-decoration: none;
 
 
