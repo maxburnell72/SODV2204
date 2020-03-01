@@ -11,33 +11,40 @@ html body {
    margin: 0px;
    padding: 14px 0px;
    font-size:24px;
-   font-family: sans-serif;
+   font-family: 'Arial Narrow', Arial bold, sans-serif;
+   text-transform: uppercase;
+   color: #454545;
+   font-stretch: ultra-expanded;
 }
 ul { 
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #565656;
-    white-space:nowrap;
+    background-color: #454545;
     align-items: center; 
     display: flex;
     justify-content: center;
 }
 li {
-    display: inline-block;
+    display: inline block;
     position: relative;
-    padding: 13px;
+    padding: 13px 25px 13px 25px;
     text-align: center
 }
  a {
-display:inline-block;
+display:block;
 color: white;
 text-align: center;
-text-decoration: none
+text-decoration: none;
+font-family: 'Arial Narrow', Arial bold, sans-serif;
+font-weight: bold;
 }
-img {
-    widows: 50px;
-    height: 50px;
+header section img {
+    widows: 220px;
+    height: 220px;
+    position: relative;
+    top: 50px;
+    left: 790px;
 
 }
 
@@ -45,7 +52,6 @@ img {
     background-color: rgba(0, 0, 0, 80%);
     background-position: center;
     width: 1033px;
-    text-align: center;
     color: white ;
     height: 315px;
     background-size: cover;
@@ -61,7 +67,35 @@ img {
     width: 100%;
     background-position: center;
     height: 315px;
+    margin: auto;
 }
+header section h1 {
+    color: yellow;
+    text-align: left;
+    position: relative;
+    right: 70px;
+    bottom: 190px;
+    font-size: 42px;
+    font-family: 'Arial Narrow', Arial bold, sans-serif ;
+   text-transform: uppercase;
+}
+header section h2 {
+    font-family: 'Arial Narrow', Arial bold, sans-serif ;
+    text-transform: uppercase;
+    position: relative;
+    right: 70px;
+    bottom: 225px;
+}
+   header section h3 {   
+    font-family: 'Arial Narrow', Arial bold, sans-serif ;
+    text-transform: uppercase;
+    position: relative;
+    right: 70px;
+    bottom: 225px;
+    opacity: 80%;
+}
+
+
 
 
 
