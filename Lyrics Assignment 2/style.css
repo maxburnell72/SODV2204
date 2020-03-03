@@ -39,8 +39,8 @@ font-family: 'Arial Narrow', Arial bold, sans-serif;
 font-weight: bold;
 }
 header section img {
-    widows: 220px;
-    height: 220px;
+    widows: 210px;
+    height: 210px;
     position: relative;
     top: 50px;
     left: 84%;
@@ -52,7 +52,7 @@ header section img {
     background-position: center;
     width: 79%;
     color: white ;
-    height: 315px;
+    height: 28em;
     background-size: cover;
     justify-content: center;
     padding-left: 90px;
@@ -65,7 +65,7 @@ header section img {
     background-size:cover;
     width: 100%;
     background-position: center;
-    height: 315px;
+    height: 28em;
     margin: auto;
 }
 header section h1 {
@@ -74,7 +74,7 @@ header section h1 {
     position: relative;
     right: 70px;
     bottom: 190px;
-    font-size: 40px;
+    font-size: 3.5em;
     font-family: 'Arial Narrow', Arial bold, sans-serif ;
    text-transform: uppercase;
 }
@@ -83,33 +83,48 @@ header section h2 {
     text-transform: uppercase;
     position: relative;
     right: 70px;
-    bottom: 225px;
+    bottom: 240px;
+    font-size: 2.2em;
 }
    header section h3 {   
     font-family: 'Arial Narrow', Arial bold, sans-serif;
     text-transform: uppercase;
     position: relative;
     right: 70px;
-    bottom: 225px;
+    bottom: 240px;
     opacity: 80%;
+    font-size: 2.2em;
 }
 aside h2 {
     background-color: yellow;
     display: inline block;
-    width: 25%;
+    width:20%;
     position: relative;
-    left: 63%;
-    padding: 20px;
+    left: 68%;
+    padding: 25px;
     font-family:'Arial Narrow', Arial bold, sans-serif ;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     color: #454545;
-
-    
-
-
 }
-
+.mainsection {
+    color:white;
+    background-color: #454545;
+    text-align: left;
+    font-family:'Arial Narrow', Arial bold, sans-serif;
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    bottom: 20px;
+    left: 68%;
+    padding: 25px;
+    font-size: 18px;
+}
+aside p{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 70px;
+} 
 
 
 
