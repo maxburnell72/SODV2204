@@ -1,5 +1,4 @@
 
-
 html body {
     max-width: 100%;
     max-height: 100%;
@@ -100,9 +99,9 @@ header section h2 {
 aside h2 {
     background-color: yellow;
     display: inline block;
-    width: 24%;
+    width: 25%;
     position: relative;
-    left: 63%;
+    left: 62%;
     bottom:10%;
     padding: 1.8%;
     font-family:'Arial Narrow', Arial bold, sans-serif ;
@@ -115,20 +114,31 @@ aside h2 {
     background-color: #454545;
     text-align: left;
     font-family:'Arial Narrow', Arial bold, sans-serif;
-    display: inline-block;
-    width: 24%;
+    display: inline block;
+    width:25%;
     position: relative;
-    left: 63%;
-    bottom: 24PX;
+    left: 62%;
+    bottom: 24px;
     padding: 1.8%;
-    font-size: 150%;
-    letter-spacing: 1px;
+    font-size: 155%;
+    letter-spacing: 1.9px;
+    word-spacing: 0.9px;
+    margin: 0cm;
+    line-height: 120%;
 }
-aside p{
-margin: 0%;
-} 
 
+.p2 {
+   margin-top: 80px;
+   margin-bottom: 80px;
+  
+}
+aside blockquote {
+    margin-left: 70px ;
+}
+.cite {
+    position: relative;
+    bottom: 38px;
+    right: 73px;
+    font-size: 45%;
 
-
-
-
+}
