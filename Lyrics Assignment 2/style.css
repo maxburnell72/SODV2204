@@ -1,8 +1,5 @@
-@media only screen and (min-width: 768px){
-
-html body {
-    max-width: 100%;
-    max-height: 100%;
+body {
+    margin:0;
 }
 
   h1:first-child {
@@ -32,7 +29,7 @@ li {
     
 }
  a {
-display:block;
+display:inline-block;
 color: white;
 text-align: center;
 text-decoration: none;
@@ -48,8 +45,16 @@ header section img {
     margin-top: 4%;
 
 }
-
-  header section {
+header {
+    background-image:url(talking_heads-speaking_in_tongues.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+} 
+ header section {
     background-color: rgba(0, 0, 0, 80%);
     background-position: center;
     width: 79%;
@@ -59,17 +64,7 @@ header section img {
     justify-content: center;
     padding-left: 5%;
     margin: auto;
-
-}
- main header {
-    background-image:url(talking_heads-speaking_in_tongues.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    width: 100%;
-    background-position: center;
-    position: relative;
-    margin: auto;
-}
+ }
 header section h1 {
     color: yellow;
     text-align: left;
@@ -99,7 +94,7 @@ header section h2 {
 }
 aside h2 {
     background-color: yellow;
-    display: inline block;
+    display: flex;
     width: 25%;
     position: relative;
     left: 62%;
@@ -115,7 +110,7 @@ aside h2 {
     background-color: #454545;
     text-align: left;
     font-family:'Arial Narrow', Arial bold, sans-serif;
-    display: inline block;
+    display: inline-block;
     width:25%;
     position: relative;
     left: 62%;
@@ -126,6 +121,7 @@ aside h2 {
     word-spacing: 0.9px;
     margin: 0cm;
     line-height: 120%;
+    
 }
 
 .p2 {
@@ -135,11 +131,72 @@ aside h2 {
 }
 aside blockquote {
     margin-left: 70px ;
+    
+
 }
 .cite {
     position: relative;
-    bottom: 38px;
-    right: 73px;
+    left:28%;
+    bottom:40px;
     font-size: 45%;
+    align-items: flex-start;}
+
+
+
+ .chorus {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top:-1450px;
+    font-size: 160%;
+    font-family:'Arial Narrow', Arial bold, sans-serif ;
+    color: #454545;
+    margin-left: 12%;
+
+}
+.verse { 
+    border-left: 5px yellow solid;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+    top:-1450px;
+    font-size: 160%;
+    font-family: 'Arial Narrow', Arial bold, sans-serif;
+    color: #454545;
+    margin-left: 10%;
+    margin-top:0;
+    
+    
+    
+}
+.verse::after{
+       content: "[Verse 1]";
+       display: block;
+       margin: 0;
+       height: 25px;
+       padding-left: 20px;
+       border-left: 5px solid yellow;
+
+}
+.verse h2 {
+    background: yellow;
+    padding:10px;
+    width:9%;
+    height:3%;
+    font-size: 1.4em;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    
+}
+    
+
+footer {
+    display: flex;
+    position: relative;
+    top:-800px;
 
 }
