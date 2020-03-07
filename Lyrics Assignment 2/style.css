@@ -1,11 +1,12 @@
 body {
-    margin:0;
+    margin:0px;
+    font-family:'Arial Narrow', Arial bold, sans-serif;
 }
 
   h1:first-child {
    background-color: yellow;  
    text-align: center;
-   width: 100%;
+   width: 100vw;
    margin: 0px;
    padding: 1.1%;
    font-size:200%;
@@ -29,27 +30,27 @@ li {
     
 }
  a {
-display:inline-block;
-color: white;
-text-align: center;
-text-decoration: none;
-font-family: 'Arial Narrow', Arial bold, sans-serif;
-font-weight: bold;
-font-size: 150%;
+    display:inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial Narrow', Arial bold, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
 }
 header section img {
     widows: 71%;
-    height: 71%;
+    height: 34vh;
     position: relative;
-    left: 77%;
-    margin-top: 4%;
+    left: 60vw;
+    margin-top: 5%;
 
 }
 header {
     background-image:url(talking_heads-speaking_in_tongues.png);
     background-repeat:no-repeat;
     background-size:cover;
-    width: 100%;
+    width: 100vw;
     background-position: center;
     background-attachment: fixed;
     margin: auto;
@@ -57,9 +58,9 @@ header {
  header section {
     background-color: rgba(0, 0, 0, 80%);
     background-position: center;
-    width: 79%;
+    width: 78vw;
     color: white ;
-    height: 28em;
+    height: 50vh;
     background-size: cover;
     justify-content: center;
     padding-left: 5%;
@@ -91,112 +92,97 @@ header section h2 {
     bottom: 85%;
     opacity: 80%;
     font-size: 180% ;
+
 }
-aside h2 {
+article {
+    display: grid; 
+    grid-template-columns: 10% 53% 37%;
+    grid-template-rows: auto;
+    
+}
+ article aside h2 {
     background-color: yellow;
-    display: flex;
-    width: 25%;
-    position: relative;
-    left: 62%;
-    bottom:10%;
-    padding: 1.8%;
     font-family:'Arial Narrow', Arial bold, sans-serif ;
     text-transform: uppercase;
-    font-size: 180%;
+    font-size: 110%;
     color: #454545;
+    margin: 0;
+    padding: 35px;
 }
-.mainsection {
+article aside {
     color:white;
     background-color: #454545;
     text-align: left;
     font-family:'Arial Narrow', Arial bold, sans-serif;
-    display: inline-block;
-    width:25%;
-    position: relative;
-    left: 62%;
-    bottom: 24px;
-    padding: 1.8%;
-    font-size: 155%;
-    letter-spacing: 1.9px;
-    word-spacing: 0.9px;
-    margin: 0cm;
+    height: 98%;
+    grid-column: 3;
+    font-size: 162%;
+    margin-right: 25%;
+    margin-top:6%;
     line-height: 120%;
-    
 }
-
-.p2 {
-   margin-top: 80px;
-   margin-bottom: 80px;
+.text{
+    padding: 10px 30px 0px 30px;
+}
+iframe{
+    align-content: center;
+    width: 50vh;
+    height: 25vh;
+    border-top: white 5px solid;
+    padding-top: 20px;
+}
   
-}
 aside blockquote {
     margin-left: 70px ;
-    
+}
+article aside a{
+    color: yellow;
+    position: relative;
+    font-size: 80%;
+    top:-40px;
+    left: 10%;
+}
+
+article section {
+   grid-column: 2;
+   color: #454545;
+}
+.verse{
+    position: relative;
+    top: -300%;
+    font-size: 180%;
+}
+.chorus{
+    position: relative;
+    top:-1350px;
+    margin: 4%;
+    font-size: 180%;
+}
+article section h2{
+    background-color: yellow;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
-.cite {
-    position: relative;
-    left:28%;
-    bottom:40px;
-    font-size: 45%;
-    align-items: flex-start;}
+article footer{
+    grid-column: 2/4;
+    position: relative ;
+    top:-4700%;
+}
 
+#cite1{
+	border-top: 5px yellow solid;
+	font-size: 95%;
+	padding-top: 40px;
+}
 
-
- .chorus {
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    top:-1450px;
-    font-size: 160%;
-    font-family:'Arial Narrow', Arial bold, sans-serif ;
+#cite1 a{
+	background-color: yellow;
     color: #454545;
-    margin-left: 12%;
+}
 
-}
-.verse { 
-    border-left: 5px yellow solid;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    position: relative;
-    top:-1450px;
-    font-size: 160%;
-    font-family: 'Arial Narrow', Arial bold, sans-serif;
-    color: #454545;
-    margin-left: 10%;
-    margin-top:0;
-    
-    
-    
-}
-.verse::after{
-       content: "[Verse 1]";
-       display: block;
-       margin: 0;
-       height: 25px;
-       padding-left: 20px;
-       border-left: 5px solid yellow;
 
-}
-.verse h2 {
-    background: yellow;
-    padding:10px;
-    width:9%;
-    height:3%;
-    font-size: 1.4em;
-    position: relative;
-    top: 20px;
-    padding: 20px;
     
-}
-    
-
-footer {
-    display: flex;
-    position: relative;
-    top:-800px;
-
-}
