@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 170vh;
+    background-color: black;
+}
+
+header{
+    background: url("mnm-all-46Yad80Ynp4-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 60vh;
+}
+
+div.top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: rgba(63, 63, 63, 0.3);
+    height: 60px;
+    width: 100%;
+}
+
+img.logo{
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+
+
+.top ul{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.top ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+.top ul li a{
+    color: #e4e3e3;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a.active,.top a:hover{
+    background: rgb(209, 94, 28);;
+    transition: .5s;
+}
+
+button{
+    padding: 5px 10px;
+    color: white    ;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+/* Start of Social Media Bar */
+
+nav.social{
+    position: fixed;
+    top: 20%;
+}
+
+.social ul{
+    list-style-type: none;
+    padding: 0;
+    transform: translatex(-50px);
+}
+
+.social ul li{
+    display: block;
+    margin: 20px;
+    background-color:rgba(231, 101, 14, 0.4);
+    width: 90px;
+    text-align: right;
+    padding: 15px;
+    border-radius: 0 40px 40px 0;
+}
+
+.social ul li a i{
+    margin-left: 15px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.social ul li:hover i{
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.social ul li.twitter:hover{
+    background-color: #55acee;
+}
+
+.social ul li.facebook:hover{
+    background-color: #3d5999;
+}
+
+.social ul li.instagram:hover{
+    background-color: #e4405f;
+}
+
+.social ul li.youtube:hover{
+    background-color: #d80202;
+}
+
+/* Start of the banner */
+
+.chef{
+    font-family: Kristen ITC;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 7% 70% 7% 7%;
+    text-transform: capitalize;
+    color: rgb(209, 94, 28, 0.9);
+}
+.chef p{
+    color: rgb(187, 184, 184);
+}
+
+/* Start of the main body */
+
+main{
+    background: rgb(241, 241, 241);
+    height: 135vh;
+    text-align: center;
+}
+
+.story-page-content{
+    font-family: Kristen ITC;
+    text-align: center;
+    line-height: 30px;
+    padding: 4%;
+    padding-top: 2%;
+    margin: 5px;
+}
+
+.content{
+    padding: 1px;
+    margin: 40px;
+}
+
+.content > p{
+
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.story-page-content>.logo{
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+
+
+.award1, .award3, .award5, .award7, .award9, .award11 {
+    background-color:rgba(247, 115, 33);
+    padding: 50px;
+}  
+   
+.award1 > h2, .award3 > h2, .award5 > h2, .award7 > h2, .award9 > h2, .award11 > h2 {
+    color: black;
+    font-size: 18px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.award1 > p, .award3 > p, .award5 > p, .award7 > p, .award9 > p, .award11 >p {
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.award2, .award4, .award6, .award8, .award10 {
+    background-color: rgb(17, 16, 16);
+    padding: 50px;
+}
+    
+.award2 > h2, .award4 > h2, .award6 > h2, .award8 > h2, .award10 > h2 {  
+    color:whitesmoke;
+    font-size: 18px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.award2 > p, .award4 > p, .award6 > p, .award8 > p, .award10 > p {
+    color: rgb(141, 137, 137);
+    font-size: 16px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+/* Start of Footer */
+
+footer{
+    background:rgb(204, 102, 19);
+    height: 30vh;
+    margin-top: 2%;
+}
+
+.logo-squid{
+    width: 60px;
+    height: auto;
+}
+
+section{
+    padding: 30px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+h4{
+    text-transform: uppercase;
+}
