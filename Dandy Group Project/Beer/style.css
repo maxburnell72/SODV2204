@@ -243,3 +243,8 @@ footer{
     color: black;
     font-size: 0.8em;
 }
+.logo-squid{
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+}
